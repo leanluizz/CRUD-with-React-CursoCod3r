@@ -1,0 +1,26 @@
+aside.logo {
+    background-color: var(--bg-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside img{
+    width: var(--logo-height);
+    filter: 
+    opacity(40%)
+    invert(10%);
+}
+aside img:hover{
+    filter: 
+    opacity(90%)
+    invert(10%);
+}
+aside.logo{
+    padding: 0px 15px;
+    width: 100%;
+}
+@media (max-width:576px){
+    aside.logo img{
+        width: 205;
+    }
+}
